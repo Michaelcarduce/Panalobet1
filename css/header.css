@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+  height: auto;
+  min-height: unset;
+  background-color: #F5FAFD;
+  background-position: center center;
+  background-size: auto;
+  background-image: url(../img/backgroungImage.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+ul.colibri-menu {  
+  justify-content: center;
+  background-color: rgba(6, 4, 62);
+  border: 2px solid rgba(255, 0, 230, 0.6);
+  border-radius: 40px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
